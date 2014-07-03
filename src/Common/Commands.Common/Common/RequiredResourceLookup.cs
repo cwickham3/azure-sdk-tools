@@ -56,7 +56,8 @@ namespace Microsoft.WindowsAzure.Commands.Utilities.Common
                 return new[] { 
                     "microsoft.insights",
                     "successbricks.cleardb",
-                    "microsoft.cache" };
+                    "microsoft.cache",
+                    "microsoft.batch" };
             }
 
             return new string[0];
