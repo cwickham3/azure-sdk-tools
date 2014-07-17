@@ -12,13 +12,13 @@
 // limitations under the License.
 // ----------------------------------------------------------------------------------
 
-namespace Microsoft.Azure.Commands.BatchManager
+namespace Microsoft.Azure.Commands.Batch
 {
     using System;
     using System.Collections.Generic;
     using System.Management.Automation;
     using Microsoft.Azure.Management.Batch.Models;
-    using Microsoft.Azure.Commands.BatchManager.Properties;
+    using Microsoft.Azure.Commands.Batch.Properties;
 
     [Cmdlet(VerbsCommon.Remove, "AzureBatchAccount")]
     public class RemoveBatchAccountCommand : BatchCmdletBase

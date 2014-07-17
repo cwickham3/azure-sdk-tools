@@ -12,7 +12,7 @@
 // limitations under the License.
 // ----------------------------------------------------------------------------------
 
-namespace Microsoft.Azure.Commands.BatchManager
+namespace Microsoft.Azure.Commands.Batch
 {
     using System;
     using System.Threading.Tasks;

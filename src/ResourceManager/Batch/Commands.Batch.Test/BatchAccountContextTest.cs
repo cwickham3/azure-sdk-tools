@@ -2,7 +2,7 @@
 {
     using System;
     using Xunit;
-    using Microsoft.Azure.Commands.BatchManager;
+    using Microsoft.Azure.Commands.Batch;
 
     public class BatchAccountContextTest
     {

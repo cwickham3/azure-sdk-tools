@@ -1,11 +1,11 @@
-﻿namespace Microsoft.Azure.Commands.BatchManager
+﻿namespace Microsoft.Azure.Commands.Batch
 {
     using System;
     using System.Collections.Generic;
     using System.Management.Automation;
     using Microsoft.WindowsAzure;
     using Microsoft.Azure.Management.Batch.Models;
-    using Microsoft.Azure.Commands.BatchManager;
+    using Microsoft.Azure.Commands.Batch;
     
     internal class Helpers
     {
