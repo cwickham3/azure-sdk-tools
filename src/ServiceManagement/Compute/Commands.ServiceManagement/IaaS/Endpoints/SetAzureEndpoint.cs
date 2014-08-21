@@ -16,7 +16,6 @@ namespace Microsoft.WindowsAzure.Commands.ServiceManagement.IaaS.Endpoints
 {
     using IaaS;
     using Model;
-    using Model.PersistentVMModel;
     using Properties;
     using System;
     using System.Collections.ObjectModel;
@@ -86,7 +85,6 @@ namespace Microsoft.WindowsAzure.Commands.ServiceManagement.IaaS.Endpoints
         }
 
         [Parameter(Mandatory = false, HelpMessage = "Idle Timeout.")]
-        [ValidateNotNullOrEmpty]
         public int IdleTimeoutInMinutes
         {
             get; 
